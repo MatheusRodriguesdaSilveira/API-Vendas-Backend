@@ -1,5 +1,6 @@
 import productsRouter from '@modules/products/routes/products.routes';
 import authRouter from '@modules/users/routes/auth.routes';
+import passwordRouter from '@modules/users/routes/password.routes';
 import userRouter from '@modules/users/routes/user.routes';
 import { Router } from 'express';
 
@@ -8,5 +9,6 @@ const routes = Router();
 routes.use('/products', productsRouter);
 routes.use('/users', userRouter);
 routes.use('/sessions', authRouter);
+routes.use('/password', passwordRouter);
 
 export { routes };
