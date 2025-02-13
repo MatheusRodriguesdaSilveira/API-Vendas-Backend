@@ -8,7 +8,7 @@ interface ITemplateVariable {
   [key: string]: string | number;
 }
 interface IParseMailTemplate {
-  template: string;
+  file: string;
   variables: ITemplateVariable;
 }
 interface ISendMail {
