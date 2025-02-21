@@ -17,30 +17,27 @@ interface IResponse {
 
 class AuthUserService {
   public async execute({ email, password }: AuthRequest): Promise<IResponse> {
-    try {
       const usersRepository = getCustomRepository(UserRepository);
 
       const user = await usersRepository.findByEmail(email);
 
       if (!user) {
-        throw new AppError('Senha ou email não encontrado ou incorreto', 401);
+        throw new AppError('Senha ou email não encontrado ou incorreto');
       }
 
-      // Verificar se a senha já esta cadastrada
       const passwordMatch = await compare(password, user.password);
 
       if (!passwordMatch) {
-        throw new AppError('Senha ou email não encontrado ou incorreto', 401);
+        throw new AppError('Senha ou email não encontrado ou incorreto');
       }
 
       if (
         !process.env.JWT_SECRET ||
         typeof process.env.JWT_SECRET !== 'string'
       ) {
-        throw new Error('JWT_SECRET inválido');
+        throw new AppError('JWT_SECRET inválido');
       }
 
-      // Gerar um token JWT e devolver os dados do user com o ID NAME EMAIL se tudo estiver correto
       const token = sign(
         {
           name: user.name,
@@ -57,10 +54,6 @@ class AuthUserService {
         user,
         token,
       };
-    } catch (error) {
-      console.error(error);
-      throw error;
-    }
   }
 }
 
