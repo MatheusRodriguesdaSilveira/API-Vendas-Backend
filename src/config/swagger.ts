@@ -16,16 +16,16 @@ const swaggerOptions = {
       },
     ],
   },
-  tags: [
-    {
-      name: 'Users',
-      description: 'Operações relacionadas aos usuários',
-    },
-    {
-      name: 'Profile',
-      description: 'Operações relacionadas ao perfil do usuário',
-    },
-  ],
+
+  //   {
+  //     name: 'Users Methods',
+  //     description: 'Operações relacionadas aos usuários',
+  //   },
+  //   {
+  //     name: 'Profile Methods',
+  //     description: 'Operações relacionadas ao perfil do usuário',
+  //   },
+  // ],
   apis: ['./src/modules/**/routes/*.ts', './src/docs/*.ts'],
 };
 

@@ -1,7 +1,7 @@
 /**
  * @swagger
  * tags:
- *   - name: Users
+ *   - name: Users Methods
  *     description: Operações relacionadas aos usuários
  */
 
@@ -10,7 +10,7 @@
  * /users:
  *   get:
  *     summary: Retorna a lista de todos os usuários
- *     tags: [Users]
+ *     tags: [Users Methods]
  *     responses:
  *       200:
  *         description: Lista de usuários
@@ -34,7 +34,7 @@
  * /users:
  *   post:
  *     summary: Cria um novo usuário
- *     tags: [Users]
+ *     tags: [Users Methods]
  *     requestBody:
  *       required: true
  *       content:

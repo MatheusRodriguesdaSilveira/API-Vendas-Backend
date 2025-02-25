@@ -3,7 +3,7 @@
  * /profile:
  *   get:
  *     summary: Retorna as informações do perfil do usuário autenticado
- *     tags: [Profile:Details]
+ *     tags: [Profile Methods]
  *     responses:
  *       200:
  *         description: Informações do perfil do usuário
@@ -32,7 +32,7 @@
  * /profile:
  *   put:
  *     summary: Atualiza as informações do perfil do usuário autenticado
- *     tags: [Profile:Update]
+ *     tags: [Profile Methods]
  *     security:
  *       - bearerAuth: []
  *     requestBody:
