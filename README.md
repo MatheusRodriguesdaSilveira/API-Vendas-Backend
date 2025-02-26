@@ -1,3 +1,5 @@
+# Em Desenvolvimento...
+
 # API Vendas Backend - Matheus Rodrigues
 
 Esta é uma API backend construída com **Node.js**, **ExpressJS**, **TypeScript**, **TypeORM**, **PostgreSQL**, **Redis**, e outras tecnologias. Ela foi desenvolvida para oferecer uma estrutura robusta e escalável para aplicações modernas.
@@ -10,7 +12,7 @@ Esta é uma API backend construída com **Node.js**, **ExpressJS**, **TypeScript
 - **TypeORM**: ORM (Object-Relational Mapper) para TypeScript e JavaScript, facilitando a interação com bancos de dados relacionais.
 - **PostgreSQL**: Banco de dados relacional utilizado para armazenar os dados da aplicação.
 - **Redis**: Armazenamento de dados em cache e gerenciamento de sessões, melhorando o desempenho da aplicação.
-- **Docker** (opcional): Containerização da aplicação para facilitar o deploy e o desenvolvimento.
+- **Docker**: Containerização da aplicação para facilitar o deploy e o desenvolvimento.
 
 ## Funcionalidades
 
