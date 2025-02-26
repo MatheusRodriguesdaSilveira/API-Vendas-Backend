@@ -17,7 +17,7 @@ Esta é uma API backend construída com **Node.js**, **ExpressJS**, **TypeScript
 - **CRUD de Usuários**: Funcionalidade para criar, ler, atualizar e excluir usuários no banco de dados PostgreSQL.
 - **Autenticação JWT**: Sistema de autenticação com JSON Web Tokens para proteção de rotas.
 - **Cache com Redis**: Armazenamento de dados frequentemente acessados em cache para melhorar a performance da aplicação.
-- **Validação de Dados**: Utilização de bibliotecas como `class-validator` e `class-transformer` para garantir que os dados enviados nas requisições sejam válidos e consistentes.
+- **Validação de Dados**: Utilização de bibliotecas como `zod` e `celebrate` para garantir que os dados enviados nas requisições sejam válidos e consistentes.
 
 ## Estrutura do Projeto
 
