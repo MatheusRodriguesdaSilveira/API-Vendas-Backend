@@ -8,7 +8,8 @@ const swaggerOptions = {
     info: {
       title: 'API Vendas',
       version: '1.0.0',
-      description: 'Documentação da API para o gerenciamento de usuários e produtos.',
+      description:
+        'Documentação da API para o gerenciamento de usuários e produtos.',
     },
     servers: [
       {
@@ -24,6 +25,10 @@ const swaggerOptions = {
   //   {
   //     name: 'Profile Methods',
   //     description: 'Operações relacionadas ao perfil do usuário',
+  //   },
+  //   {
+  //     name: 'Password Methods',
+  //     description: 'Operações relacionadas a senha do usuário',
   //   },
   // ],
   apis: ['./src/modules/**/routes/*.ts', './src/docs/*.ts'],

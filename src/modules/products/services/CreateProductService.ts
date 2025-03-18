@@ -26,6 +26,7 @@ class CreateProductService {
     await productsRepository.save(product);
 
     return {
+      order_products: product.order_products,
       id: product.id,
       name: product.name,
       price: product.price,
