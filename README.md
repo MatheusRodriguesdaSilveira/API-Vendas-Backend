@@ -1,28 +1,83 @@
-# Em Desenvolvimento...
+<h1 align="center">📂 API - Sistema de Vendas(Em desenvolvimento...)</h1>
 
-# API Vendas Backend - Matheus Rodrigues
+<p align="center">
+  API RESTful para gerenciamento de vendas, clientes, produtos e usuários.<br />
+  <br />
+  <a href="https://github.com/MatheusRodriguesdaSilveira/API-Vendas-Backend/issues">Reportar Bug</a>
+  ·
+  <a href="https://github.com/MatheusRodriguesdaSilveira/API-Vendas-Backend/pulls">Solicitar Feature</a>
+</p>
 
-Esta é uma API backend construída com **Node.js**, **ExpressJS**, **TypeScript**, **TypeORM**, **PostgreSQL**, **Redis**, e outras tecnologias. Ela foi desenvolvida para oferecer uma estrutura robusta e escalável para aplicações modernas.
+---
 
-## Tecnologias Usadas
+## 🚀 Tecnologias Utilizadas
 
-- **Node.js**: Ambiente de execução JavaScript para o backend.
-- **ExpressJS**: Framework web para Node.js, utilizado para construir APIs RESTful.
-- **TypeScript**: Superset do JavaScript que adiciona tipagem estática, tornando o código mais seguro e legível.
-- **TypeORM**: ORM (Object-Relational Mapper) para TypeScript e JavaScript, facilitando a interação com bancos de dados relacionais.
-- **PostgreSQL**: Banco de dados relacional utilizado para armazenar os dados da aplicação.
-- **Redis**: Armazenamento de dados em cache e gerenciamento de sessões, melhorando o desempenho da aplicação.
-- **Docker**: Containerização da aplicação para facilitar o deploy e o desenvolvimento.
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=nodejs,ts,express,postgres,prisma,jest,git,vscode" />
+</div>
 
-## Funcionalidades
+- **Node.js** + **TypeScript**
+- Express.js
+- PostgreSQL
+- Prisma ORM
+- JWT Auth
+- Testes com Jest
 
-- **CRUD de Usuários**: Funcionalidade para criar, ler, atualizar e excluir usuários no banco de dados PostgreSQL.
-- **Autenticação JWT**: Sistema de autenticação com JSON Web Tokens para proteção de rotas.
-- **Cache com Redis**: Armazenamento de dados frequentemente acessados em cache para melhorar a performance da aplicação.
-- **Validação de Dados**: Utilização de bibliotecas como `zod` e `celebrate` para garantir que os dados enviados nas requisições sejam válidos e consistentes.
+---
 
-## Estrutura do Projeto
+## ⚙️ Funcionalidades
 
-A estrutura do projeto está organizada da seguinte maneira:
+- 📦 Cadastro de produtos
+- 👥 Cadastro e gerenciamento de clientes
+- 💳 Registro de vendas com relacionamento
+- 🔒 Autenticação e autorização com JWT
+- ✅ Testes automatizados com Jest
 
-![image](https://github.com/user-attachments/assets/5df95085-24d9-488c-8cad-790c7963ede7)
+---
+
+## 📂 Estrutura do Projeto
+
+![image](https://github.com/user-attachments/assets/71334bc2-7b5e-4b42-b2c9-bdb26bd6c065)
+
+
+---
+
+## 🛠️ Como usar
+
+```bash
+# Clone o repositório
+git clone https://github.com/MatheusRodriguesdaSilveira/API-Vendas-Backend
+
+# Instale as dependências
+npm install
+
+# Configure o banco de dados em .env
+
+# Execute as migrations
+npx prisma migrate dev
+
+# Inicie o servidor
+npm run dev
+```
+
+---
+
+## 🔪 Rodando os testes
+
+```bash
+npm run test
+```
+
+---
+
+## 📬 Contato
+
+[![LinkedIn](https://img.shields.io/badge/-Matheus%20Rodrigues-0A66C2?style=flat&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/matheus-rodrigues-da-silveira/)
+[![Portfólio](https://img.shields.io/badge/-Portfólio-000?style=flat&logo=ko-fi&logoColor=white)](https://portfolio-matheussilveira.vercel.app)
+
+---
+
+<p align="center">
+  Feito com 💙 por Matheus Rodrigues
+</p>
+
